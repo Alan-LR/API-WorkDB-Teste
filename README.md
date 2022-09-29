@@ -6,7 +6,7 @@
 ### Técnologias utilizadas:
 + Java.
 + Spring Boot.
-+ Banco de dados Postgres.
++ Banco de dados PostgreSQL.
 + API externa - https://openweathermap.org
 
 ### Funcionalidades:
@@ -24,3 +24,5 @@
 + Retorna as pesquisas de todas as cidades que foram feitas na API
 
 ### Como rodar a aplicação:
++ Crie no banco de dados PostgreSQL uma database com o nome: api_previsao
++ Start a sua aplicação, e a tabela para salvar registros será criada automaticamente.
