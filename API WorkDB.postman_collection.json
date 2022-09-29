@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "4b42e311-8db7-4f1b-b0d2-3f3acd73ee15",
+		"name": "API WorkDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19861029"
+	},
+	"item": [
+		{
+			"name": "Pegar temperatura de uma determinada cidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/-27.5969/-27.5969/f89de51b9af13ce4476877feca3f99a0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"-27.5969",
+						"-27.5969",
+						"f89de51b9af13ce4476877feca3f99a0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retornar os registros do banco de dados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pegarRegistros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pegarRegistros"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
